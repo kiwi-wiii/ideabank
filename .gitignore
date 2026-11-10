@@ -1,0 +1,8 @@
+# Игнорируем локальную базу данных SQLite
+backend/*.db
+backend/*.sqlite3
+
+# Игнорируем кэш Python
+__pycache__/
+backend/__pycache__/
+*.pyc
