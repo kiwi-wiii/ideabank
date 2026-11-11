@@ -1,0 +1,220 @@
+:root{
+    --green: #10c010;
+    --red: #f10b0b;
+    --green_iniciativi: #1EB600;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Индекс */
+
+.header_main{
+    max-width: 1000px;
+    max-height: 100px;
+    padding: 40px 0;
+    margin-inline: auto;
+    font-display: center;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    padding: 30px 50px;
+    font-size: 30px;
+    font-weight: 700px;
+    color: white;
+    background: var(--green);
+    border-radius: 20px;
+}
+.profil{
+    padding: 30px 50px;
+    font-size: 30px;
+    font-weight: 700px;
+    color: white;
+    background: var(--red);
+    border-radius: 20px;
+}
+.profil:hover{
+    opacity: 80%;
+    transition: 0.4s;
+}
+.conteiner{
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.iniciativi_perehod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 472px;
+    max-height: 104px;
+    width: 320px;
+    height: 104px;
+    color: #ffffff;
+    background: #ff009d;
+    font-size: 36px;
+    font-family: "Roboto", serif;
+    font-weight: 700px;
+    border-radius: 12px;
+}
+.obsydenia_perehod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 472px;
+    max-height: 104px;
+    width: 320px;
+    height: 104px;
+    color: #ffffff;
+    background: #2500f8;
+    font-size: 36px;
+    font-family: "Roboto", serif;
+    font-weight: 700px;
+    border-radius: 12px;
+}
+.predlodenia_perehod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 472px;
+    max-height: 104px;
+    width: 320px;
+    height: 104px;
+    color: #ffffff;
+    background: #00fc15;
+    font-size: 36px;
+    font-family: "Roboto", serif;
+    font-weight: 700px;
+    border-radius: 12px;
+}
+
+/* Инициативы */
+
+.body_iniciativi{
+    background-image: url('images/fon_iniciativi.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.header_iniciativi{
+    margin-inline: auto;
+    padding: 72px 168px;
+    padding-block: 40px;
+}
+.header_div_iniciativi{
+    margin-inline:auto ;
+    max-width: 1104px;
+}
+.nav_activ_iniciativi{
+    padding: 24px 80px 30px 0;
+    display: flex;
+    justify-content: end;
+}
+.p_activ_iniciatici{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 208px;
+    max-height: 40px;
+    width: 208px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 700px;
+    color: var(--green_iniciativi);
+    background: #D1FAE5;
+    border: 1px solid #10B981;
+    border-radius: 16px;
+}
+.header_nav_iniciativi{
+    width: 1104px;
+    height: 408px;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+.nav_p_iniciativi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.p_iniciativi{
+    max-width: 900px;
+    max-height: 300px;
+    overflow-y: auto;
+    color: var(#000);
+    font-family: 'Roboto', serif;
+    font-size: 28px;
+}
+.p_iniciativi::-webkit-scrollbar {
+    display: none;
+}
+.main_iniciativi{
+    max-width: 1104px;
+    margin-inline: auto;
+}
+.main_section_iniciativi_1{
+    padding-block: 64px;
+}
+.main_p_iniciativi_1{
+    font-size: 36px;
+    padding-bottom: 40px;
+    font-family: "Roboto", serif;
+}
+.main_p_iniciativi_2{
+    font-size: 28px;
+    font-family: "Roboto", serif;
+}
+.main_p_iniciativi_3{
+    font-size: 28px;
+    font-family: "Roboto", serif;
+}
+.main_div_iniciativi_2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 88px;
+}
+.main_a_iniciativi_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 472px;
+    max-height: 104px;
+    width: 472px;
+    height: 104px;
+    color: #ffffff;
+    background: #4F46E5;
+    font-size: 36px;
+    font-family: "Roboto", serif;
+    font-weight: 700px;
+    border-radius: 12px;
+}
+.main_a_iniciativi_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 472px;
+    max-height: 104px;
+    width: 320px;
+    height: 104px;
+    color: #000000;
+    background: #FFFFFF;
+    font-size: 36px;
+    font-family: "Roboto", serif;
+    font-weight: 700px;
+    border-radius: 12px;
+}
