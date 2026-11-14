@@ -35,18 +35,6 @@ a{
     background: var(--green);
     border-radius: 20px;
 }
-.profil{
-    padding: 30px 50px;
-    font-size: 30px;
-    font-weight: 700px;
-    color: white;
-    background: var(--red);
-    border-radius: 20px;
-}
-.profil:hover{
-    opacity: 80%;
-    transition: 0.4s;
-}
 .conteiner{
     margin: auto;
     max-width: 1000px;
@@ -63,36 +51,6 @@ a{
     height: 104px;
     color: #ffffff;
     background: #ff009d;
-    font-size: 36px;
-    font-family: "Roboto", serif;
-    font-weight: 700px;
-    border-radius: 12px;
-}
-.obsydenia_perehod{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 472px;
-    max-height: 104px;
-    width: 320px;
-    height: 104px;
-    color: #ffffff;
-    background: #2500f8;
-    font-size: 36px;
-    font-family: "Roboto", serif;
-    font-weight: 700px;
-    border-radius: 12px;
-}
-.predlodenia_perehod{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 472px;
-    max-height: 104px;
-    width: 320px;
-    height: 104px;
-    color: #ffffff;
-    background: #00fc15;
     font-size: 36px;
     font-family: "Roboto", serif;
     font-weight: 700px;
